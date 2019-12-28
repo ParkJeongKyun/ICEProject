@@ -1,4 +1,10 @@
+### Custom ###
+secrets.json
+
+### Django ###
 *.pyc
+*.pot
+*.log
 *~
 __pycache__
 myvenv
