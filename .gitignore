@@ -1,5 +1,6 @@
 ### Custom ###
 .config/
+.static_root/
 secrets.json
 
 # Created by https://www.gitignore.io/api/python,django,pycharm
