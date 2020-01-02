@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os, json
 from django.core.exceptions import ImproperlyConfigured
+import pymysql
+pymysql.install_as_MySQLdb()
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -95,8 +97,12 @@ WSGI_APPLICATION = 'ICE.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'che1-db.c1iw28xmntoj.ap-northeast-2.rds.amazonaws.com',
+        'PORT': '3306',
+        'NAME': 'che1-db',
+        'USER': 'Che1',
+        'PASSWORD': '!AzazeLpjk1616',
     }
 }
 
