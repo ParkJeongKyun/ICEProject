@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'ICE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'icedb',
+        'NAME': '-',
         'USER': 'Che1',
         'PASSWORD': '!AzazeLpjk1616',
         'HOST': 'icedb.c1iw28xmntoj.ap-northeast-2.rds.amazonaws.com',
