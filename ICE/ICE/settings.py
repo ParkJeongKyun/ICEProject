@@ -98,10 +98,11 @@ WSGI_APPLICATION = 'ICE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'che1-db.c1iw28xmntoj.ap-northeast-2.rds.amazonaws.com',
-        'PORT': '3306',
+        'NAME': 'che1-db',
         'USER': 'Che1',
         'PASSWORD': '!AzazeLpjk1616',
+        'HOST': 'che1-db.c1iw28xmntoj.ap-northeast-2.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
